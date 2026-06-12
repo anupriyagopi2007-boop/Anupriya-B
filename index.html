@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupriya . B | Creative BCA Student & Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Anupriya . B, a passionate third-year BCA student and web developer. Explore my academic projects, skills, and design works.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Glowing Elements -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Anupriya<span class="logo-dot">.</span>B<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active" id="nav-home">Home</a></li>
+                    <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+                    <li><a href="#skills" class="nav-link" id="nav-skills">Skills</a></li>
+                    <li><a href="#projects" class="nav-link" id="nav-projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" id="nav-contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-container">
+                <div class="hero-content fade-in-up">
+                    <span class="badge">Welcome to my space</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-text">Anupriya . B</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span class="typewriter-text" id="typewriter"></span>
+                    </h2>
+                    <p class="hero-description">
+                        A dedicated third-year Bachelor of Computer Applications (BCA) student and passionate digital creator. I blend coding foundations with aesthetic designs to build responsive, user-friendly web applications.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary" id="btn-hire">
+                            Get In Touch <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                        <a href="#projects" class="btn btn-secondary" id="btn-work">
+                            View My Work
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual fade-in-up delay-1">
+                    <div class="avatar-frame">
+                        <div class="avatar-glow"></div>
+                        <div class="avatar-img-container">
+                            <img src="assets/avatar.png" alt="Anupriya . B Portrait" class="avatar-img">
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <i data-lucide="code" class="icon-pulse"></i>
+                            <span>BCA Student</span>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i data-lucide="palette" class="icon-bounce"></i>
+                            <span>UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About Me section">
+                <span>Scroll Down</span>
+                <i data-lucide="chevrons-down" class="indicator-arrow"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">Know Me Better</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="about-container">
+                <div class="about-info fade-in-up">
+                    <h3 class="about-subtitle">Academic Journey & Aspirations</h3>
+                    <p class="about-text">
+                        As a third-year BCA student, I have spent the last few years immersing myself in programming languages, databases, and software engineering methodologies. I love solving structured logical puzzles while crafting visual interfaces that make computing accessible to everyone.
+                    </p>
+                    <p class="about-text">
+                        My goal is to step into the professional tech world as a frontend/full-stack developer who understands both clean code and delightful design. I constanty learn new web standards and frameworks to stay ahead of modern trends.
+                    </p>
+
+                    <div class="info-grid">
+                        <div class="info-card">
+                            <i data-lucide="graduation-cap" class="info-icon"></i>
+                            <div class="info-details">
+                                <span class="info-label">Degree</span>
+                                <span class="info-value">BCA (3rd Year)</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i data-lucide="map-pin" class="info-icon"></i>
+                            <div class="info-details">
+                                <span class="info-label">Location</span>
+                                <span class="info-value">India</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i data-lucide="mail" class="info-icon"></i>
+                            <div class="info-details">
+                                <span class="info-label">Email</span>
+                                <span class="info-value">anupriya.b.bca@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <i data-lucide="briefcase" class="info-icon"></i>
+                            <div class="info-details">
+                                <span class="info-label">Available for</span>
+                                <span class="info-value">Internships</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-timeline fade-in-up delay-1">
+                    <h3 class="timeline-heading">Education History</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - Present</span>
+                                <h4 class="timeline-title">Bachelor of Computer Applications (BCA)</h4>
+                                <p class="timeline-desc">Specializing in core computing concepts, software architecture, web technologies, and database systems. Currently maintaining top performance.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2021 - 2023</span>
+                                <h4 class="timeline-title">Higher Secondary Education</h4>
+                                <p class="timeline-desc">Focused on Computer Science and Mathematics, building the logical foundations that inspired my pursuit of a tech degree.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2021</span>
+                                <h4 class="timeline-title">Secondary School Certificate</h4>
+                                <p class="timeline-desc">Graduated with honors, demonstrating initial interest in digital arts, presentations, and technology projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">My Toolbox</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="skills-wrapper fade-in-up">
+                <div class="skills-tabs">
+                    <button class="tab-btn active" data-tab="all" id="tab-all">All Skills</button>
+                    <button class="tab-btn" data-tab="frontend" id="tab-frontend">Frontend</button>
+                    <button class="tab-btn" data-tab="backend" id="tab-backend">Backend / DB</button>
+                    <button class="tab-btn" data-tab="languages" id="tab-languages">Languages</button>
+                    <button class="tab-btn" data-tab="design" id="tab-design">Design & Tools</button>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- HTML5 (Frontend) -->
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-html">
+                                <i data-lucide="html5"></i>
+                            </div>
+                            <span class="skill-name">HTML5 / Semantic Web</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CSS3 (Frontend) -->
+                    <div class="skill-card" data-category="frontend">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-css">
+                                <i data-lucide="palette"></i>
+                            </div>
+                            <span class="skill-name">CSS3 / Flexbox / Grid</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript (Languages/Frontend) -->
+                    <div class="skill-card" data-category="frontend languages">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-js">
+                                <i data-lucide="braces"></i>
+                            </div>
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SQL / MySQL (Backend) -->
+                    <div class="skill-card" data-category="backend">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-db">
+                                <i data-lucide="database"></i>
+                            </div>
+                            <span class="skill-name">MySQL / SQL Queries</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Java (Languages) -->
+                    <div class="skill-card" data-category="languages">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-java">
+                                <i data-lucide="terminal"></i>
+                            </div>
+                            <span class="skill-name">Java OOPs</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Python (Languages) -->
+                    <div class="skill-card" data-category="languages">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-py">
+                                <i data-lucide="file-code-2"></i>
+                            </div>
+                            <span class="skill-name">Python Scripting</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UI/UX Figma (Design) -->
+                    <div class="skill-card" data-category="design">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-figma">
+                                <i data-lucide="layout"></i>
+                            </div>
+                            <span class="skill-name">UI Design & Figma</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VS Code & Git (Design/Tools) -->
+                    <div class="skill-card" data-category="design">
+                        <div class="skill-header">
+                            <div class="skill-icon-box skill-git">
+                                <i data-lucide="git-branch"></i>
+                            </div>
+                            <span class="skill-name">Git / Version Control</span>
+                        </div>
+                        <div class="skill-level-container">
+                            <div class="skill-level-header">
+                                <span>Expertise</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">My Creations</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-wrapper fade-in-up">
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+                    <button class="filter-btn" data-filter="web" id="filter-web">Web Dev</button>
+                    <button class="filter-btn" data-filter="database" id="filter-database">Databases</button>
+                    <button class="filter-btn" data-filter="uiux" id="filter-uiux">UI/UX Layouts</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 (Web & Database) -->
+                    <article class="project-card" data-category="web database">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category-tag">Full Stack</div>
+                            <!-- Mock Project Representation in HTML/CSS -->
+                            <div class="project-mockup code-mockup">
+                                <div class="mockup-header">
+                                    <div class="mockup-dot r"></div>
+                                    <div class="mockup-dot y"></div>
+                                    <div class="mockup-dot g"></div>
+                                </div>
+                                <div class="mockup-body">
+                                    <span class="mock-c">SELECT</span> * <span class="mock-c">FROM</span> students;<br>
+                                    <span class="mock-c">UPDATE</span> status = <span class="mock-s">'Enrolled'</span>;<br>
+                                    <span class="mock-comment">// Database management portal</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">SmartEdu Database System</h3>
+                            <p class="project-desc">A web portal built for managing student academic scores, attendance registers, and curriculum schedules. Leverages HTML, CSS, and robust PHP-MySQL back-ends.</p>
+                            <div class="project-tech-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                                <span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Anupriya-B" target="_blank" class="project-link-btn" aria-label="View Github source for SmartEdu Database System">
+                                    <i data-lucide="github"></i> Code
+                                </a>
+                                <a href="#" class="project-link-btn disabled" aria-label="Live preview unavailable">
+                                    <i data-lucide="external-link"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 (Web & UI) -->
+                    <article class="project-card" data-category="web uiux">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category-tag">Frontend</div>
+                            <div class="project-mockup ui-mockup">
+                                <div class="mockup-header">
+                                    <div class="mockup-dot r"></div>
+                                    <div class="mockup-dot y"></div>
+                                    <div class="mockup-dot g"></div>
+                                </div>
+                                <div class="mockup-body flex-mock">
+                                    <div class="mock-circle"></div>
+                                    <div class="mock-line long"></div>
+                                    <div class="mock-line short"></div>
+                                    <div class="mock-btn-row">
+                                        <div class="mock-block"></div>
+                                        <div class="mock-block"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Zenith Style E-Commerce</h3>
+                            <p class="project-desc">A responsive aesthetic fashion landing page template with item filters, product details preview modal, and dynamic cart status updates utilizing LocalStorage.</p>
+                            <div class="project-tech-tags">
+                                <span>HTML5</span>
+                                <span>Vanilla CSS</span>
+                                <span>JS ES6</span>
+                                <span>Figma Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Anupriya-B" target="_blank" class="project-link-btn" aria-label="View Github source for Zenith Style E-Commerce">
+                                    <i data-lucide="github"></i> Code
+                                </a>
+                                <a href="#" class="project-link-btn disabled" aria-label="Live preview unavailable">
+                                    <i data-lucide="external-link"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 (Web) -->
+                    <article class="project-card" data-category="web">
+                        <div class="project-img-wrapper">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category-tag">JS Application</div>
+                            <div class="project-mockup app-mockup">
+                                <div class="mockup-header">
+                                    <div class="mockup-dot r"></div>
+                                    <div class="mockup-dot y"></div>
+                                    <div class="mockup-dot g"></div>
+                                </div>
+                                <div class="mockup-body column-mock">
+                                    <div class="mock-card-row"></div>
+                                    <div class="mock-card-row"></div>
+                                    <div class="mock-card-row"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">DevSync Student Community</h3>
+                            <p class="project-desc">A interactive collaboration board app where BCA classmates can share syllabus documents, post tech notes, and create upcoming assignment alerts in real time.</p>
+                            <div class="project-tech-tags">
+                                <span>JavaScript</span>
+                                <span>Local Storage</span>
+                                <span>CSS Variables</span>
+                                <span>Flexbox</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Anupriya-B" target="_blank" class="project-link-btn" aria-label="View Github source for DevSync Student Community">
+                                    <i data-lucide="github"></i> Code
+                                </a>
+                                <a href="#" class="project-link-btn disabled" aria-label="Live preview unavailable">
+                                    <i data-lucide="external-link"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header fade-in-up">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-container">
+                <div class="contact-info fade-in-up">
+                    <h3 class="contact-subtitle">Let's Connect & Build Together</h3>
+                    <p class="contact-text">
+                        Are you looking for an enthusiastic, hardworking intern to join your development team, or do you have a cool project idea to build? Drop me a message, and I'll get back to you as soon as possible!
+                    </p>
+
+                    <div class="contact-details">
+                        <a href="mailto:anupriya.b.bca@gmail.com" class="contact-detail-card" aria-label="Send email to anupriya.b.bca@gmail.com">
+                            <div class="contact-detail-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <span class="contact-detail-label">Email Me</span>
+                                <span class="contact-detail-value">anupriya.b.bca@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-detail-card">
+                            <div class="contact-detail-icon">
+                                <i data-lucide="sparkles"></i>
+                            </div>
+                            <div class="contact-detail-text">
+                                <span class="contact-detail-label">Interests</span>
+                                <span class="contact-detail-value">Web Tech, Relational Databases</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Anupriya-B" target="_blank" class="social-icon-btn" aria-label="GitHub profile">
+                            <i data-lucide="github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/anupriya-b-bca" target="_blank" class="social-icon-btn" aria-label="LinkedIn profile">
+                            <i data-lucide="linkedin"></i>
+                        </a>
+                        <a href="mailto:anupriya.b.bca@gmail.com" class="social-icon-btn" aria-label="Email Address">
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper fade-in-up delay-1">
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" placeholder="John Doe" required>
+                                <span class="error-msg" id="name-error">Please enter your name</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email</label>
+                                <input type="email" id="form-email" placeholder="john@example.com" required>
+                                <span class="error-msg" id="email-error">Please enter a valid email</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject">Subject</label>
+                            <input type="text" id="form-subject" placeholder="Collaboration / Inquiry" required>
+                            <span class="error-msg" id="subject-error">Please enter a subject</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="5" placeholder="Write your message here..." required></textarea>
+                            <span class="error-msg" id="message-error">Please write a message</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="btn-submit">
+                            Send Message <i data-lucide="send" class="btn-icon"></i>
+                        </button>
+                    </form>
+                    <!-- Success popup modal overlay (hidden by default) -->
+                    <div class="form-feedback" id="form-feedback">
+                        <div class="feedback-card">
+                            <div class="feedback-icon-box">
+                                <i data-lucide="check-circle" class="feedback-icon"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+                            <button class="btn btn-primary btn-sm" id="btn-feedback-close">Okay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Anupriya . B. Handcrafted with passion.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="back-to-top" aria-label="Scroll to top of page">
+        <i data-lucide="arrow-up"></i>
+    </a>
+
+    <!-- Application Script -->
+    <script src="app.js"></script>
+</body>
+</html>
